@@ -3413,6 +3413,10 @@ textarea.input-lg, select[multiple].input-lg {
 	user-select: none;
 }
 
+.submitcontent{
+	margin-left: 765px;
+}
+
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus,
 	.btn.active.focus {
 	outline: thin dotted;

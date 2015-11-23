@@ -38,8 +38,8 @@
 	<!-- 페이지 이름 : Q&A --> 
  	<div class="row">        
 		<div class="page-header">
-			<h2 id="forms">Q&A</h2><br>
-			<label id="forms">&nbsp;&nbsp;999 회원님들께서 궁금하신 사항들을 질문해주세요.</label>
+			<h2 id="forms">자유게시판</h2><br>
+			<label id="forms">&nbsp;&nbsp;자유게시판입니다.</label>
 		</div>
 	</div>
  	<!-- side 네비게이션 -->
@@ -58,14 +58,14 @@
 		<fieldset>
 			<div class="form-group">
 				<div class="col-lg-12">
-					<input type="text" class="form-control" id="inputName">
+					<input type="text" class="form-control" placeholder="제목">
 				</div>
 			</div>
 			<div class="form-group">
 			<div class="col-lg-12">
-				<textarea name="ir1" id="ir1" rows="10" cols="117">에디터에 기본으로 삽입할 글(수정 모드)이 없다면 이 value 값을 지정하지 않으시면 됩니다</textarea>
-				</div>
-            <p class="pull-right"><br>
+				<textarea name="ir1" id="ir1" rows="10" cols="117"></textarea>
+				</div><br>
+            <p class="submitcontent pull-left"><br>
             	<a href="#" class="btn btn-default btn-sm">취소</a>
             	<a href="#" class="btn btn-primary btn-sm">등록</a>
             </p>
